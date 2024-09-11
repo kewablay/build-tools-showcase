@@ -1,0 +1,38 @@
+[
+  {
+    "name": "webpack",
+    "description": "A static module bundler for modern JavaScript applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+  },
+  {
+    "name": "gulp",
+    "description": "A toolkit to automate & enhance your workflow.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg"
+  },
+  {
+    "name": "grunt",
+    "description": "A JavaScript task runner that can perform repetitive tasks.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grunt/grunt-original.svg"
+  },
+  {
+    "name": "npm scripts",
+    "description": "Built-in task runner with npm to execute various tasks defined in package.json.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+  },
+  {
+    "name": "vite",
+    "description": "A build tool that aims to provide a faster and leaner development experience.",
+    "icon": "https://vitejs.dev/logo.svg"
+  },
+  {
+    "name": "snowpack",
+    "description": "A lightning-fast frontend build tool, designed for the modern web.",
+    "icon": "https://www.snowpack.dev/img/logo.png"
+  },
+  {
+    "name": "esbuild",
+    "description": "An extremely fast JavaScript bundler and minifier.",
+    "icon": "https://esbuild.github.io/favicon.svg"
+  }
+]
+  

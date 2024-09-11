@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap')
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  font-family: "Red Hat Text", sans-serif
+  background: #0f0606
+  color: white
+//   display: flex
+//   flex-direction: column
+//   justify-content: space-between
+//   height: 100vh
+//   background-color: whitesmoke
+
+header 
+    display: flex
+    padding:1rem 2rem
+    justify-content: space-between
+    align-items: center
+    border-bottom: 1px solid #282828
+    
+    h2 
+        font-size: 20px
+
+    .links
+        display: flex
+        gap: 1.5rem
+
+        a  
+            text-decoration: none
+            color: white
+
+            &:hover
+                text-decoration: underline
+
+.hero
+    font-family: "Anton SC", sans-serif !important
+    max-width: 50%
+    margin-inline: auto
+    margin-block: 10rem
+
+    h1 
+        font-size: 60px
+        text-align: center
+
+    p
+        text-align: center
+        font-family: "Red Hat Text", sans-serif
+        font-size: 20px
+        margin-top: .5rem
+
+
+.content
+    max-width: 1024px
+    margin-inline: auto
+    display: grid 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+    // display: flex
+    padding-inline: 1rem
+    gap: 4rem
+
+    .item 
+        flex-shrink: 0
+        padding: 1.5rem
+        display: flex 
+        flex-direction: column
+        gap: 1rem
+
+        h2
+            margin-bottom: .5rem
+
+        h2, p
+            text-align: center
+
+    .img-container
+        display: flex
+        justify-content: center 
+        align-items: center
+
+        img
+            width: 100%
+
+footer
+    text-align: center
+    padding: 1rem
+    border-top: 1px solid #282828
+    margin-top: 2rem
