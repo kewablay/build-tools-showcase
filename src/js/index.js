@@ -1,4 +1,4 @@
-import tools from './tools';
+import data from '../data.json';
 import '../styles/style.sass';
 
 const createToolItem = ({ icon, name, description }) => `
@@ -14,10 +14,9 @@ const createToolItem = ({ icon, name, description }) => `
 `;
 
 document.querySelector('.content').innerHTML = `
-    ${tools.map(createToolItem).join('')}
+    ${data.map(createToolItem).join('')}
   
 `;
 
 
 
-console.log(tools[0].image)
